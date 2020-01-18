@@ -6,7 +6,7 @@ Name:           perl-XML-Grove
 # better not to use an epoch. If 0.46 is ever released, the epoch way
 # would have to be used, but we are better avoiding that if possible.
 Version:        0.46alpha
-Release:        51%{?dist}
+Release:        52%{?dist}
 Summary:        Simple access to infoset of parsed XML, HTML, or SGML instances
 
 Group:          Development/Libraries
@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.46alpha-52
+- Mass rebuild 2013-12-27
+
 * Fri Nov 23 2012 Petr Pisar <ppisar@redhat.com> - 0.46alpha-51
 - Provide versioned perl(XML::Grove)
 
